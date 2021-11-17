@@ -7,3 +7,9 @@ sudo apt-get install ibus-rime
 sudo apt install librime-data-pinyin-simp
 
 https://github.com/rime/home/wiki/RimeWithIBus
+
+
+CH34X:
+
+https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/linux
+
