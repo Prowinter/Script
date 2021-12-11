@@ -1,0 +1,41 @@
+// This is a vistual code configuration for CMake 
+
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "CMake",
+			"command": "cmake",
+			"args": [
+				".",
+				"&&",
+				"make",
+				"-j"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": []
+		},
+		{
+			"type": "shell",
+			"label": "Run",
+			"command": "./${fileBasenameNoExtension}",
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [],
+			"dependsOn": "CMake"
+		},
+		{
+			"type": "shell",
+			"label": "Run_Executable",
+			"command": "./${fileBasenameNoExtension}",
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [],
+		}
+	]
+}
