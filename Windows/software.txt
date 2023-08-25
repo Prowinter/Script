@@ -1,0 +1,33 @@
+PotPlayer
+7z
+Snipaste
+OBS
+Eudic
+ImageGlass
+IDM
+Terminal
+
+Postman
+Fiddler
+
+Visual Studio Code
+Source Insight
+Jlink
+Ozone
+Keil
+STM32Cubemx
+STMStudio
+Vofa+
+
+
+AutoCAD
+Solidworks
+PrusaSlicer
+Barrier
+CMake
+Cygwin
+Matlab
+
+
+
+
